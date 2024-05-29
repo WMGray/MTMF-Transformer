@@ -20,8 +20,13 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
-## Quick Start Guide
+## Model Parameter description
+```python
+TODO
+```
 
+##  Ablation Study
+You can perform ablation experiments on the module in the ablation_study.py to verify the effectiveness of the model.
 ## Note:
 The rest of the code will be open sourced after the paper is accepted, so stay tuned.
 
