@@ -64,11 +64,10 @@ if __name__ == '__main__':
             'n_blocks': args.n_blocks
         }
     else:
-        # 断言
         assert False, f"{args.model_type} type not supported"
+
     # gpu
     import os
-
     os.environ["CUDA_VISIBLE_DEVICES"] = str(args.gpu)
     print(args)
     for seed in [392, 412, 432, 452, 472]:
