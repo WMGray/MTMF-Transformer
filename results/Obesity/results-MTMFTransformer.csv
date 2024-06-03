@@ -1,0 +1,2 @@
+n_layers,num_bottleneck,batch_size,lr,use_bottleneck,btn_init,use_cross_atn,seed,mode,feature,AUC,ACC,Recall,Precision,F1
+1,16,4,0.0001,True,embed,True,412,0,"ko,species",0.6902,0.6275,0.5455,0.8182,0.6545

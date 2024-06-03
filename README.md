@@ -17,16 +17,16 @@ conda activate mtmf
 pip install -r requirements.txt
 ```
 5. Step 5: Run the main.py file to train the model:
-```bash
-python main.py
-```
-## Model Parameter description
-```python
-TODO
-```
+    - You can use the '-uc' parameter to reproduce the result, where the config files are stored in the 'Config' folder.
+   ```python
+   python main.py -d EW-T2D -uc --gpu 0
+   ```
+   - You can also specify parameters to train the model, for example:
+   ```python
+    python main.py -d EW-T2D --gpu 0 --bs 32 --lr 0.0001 -num_b 4  # MTMF-Transformer
+   ```
+   Different models have different parameters. For details, you can view `main.py` file.
 
-##  Ablation Study
-You can perform ablation experiments on the module in the ablation_study.py to verify the effectiveness of the model.
 ## Note:
 The rest of the code will be open sourced after the paper is accepted, so stay tuned.
 

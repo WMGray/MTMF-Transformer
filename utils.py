@@ -61,17 +61,9 @@ def check_record(paras: Dict, df_path: str) -> bool:
     if not os.path.exists(df_path):
         return True
     print(paras)
-
     res_df = pd.read_csv(df_path)[list(paras.keys())]
-    # print(res_df)
 
-    # print(dict(paras))
     for d in res_df.to_dict(orient='records'):
-        # print(paras)
-        # print(d)
-        # print()
-        # import time
-        # time.sleep(10)
         if d == dict(paras):
             return False
     return True

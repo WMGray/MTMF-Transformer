@@ -1,0 +1,6 @@
+n_layers,num_bottleneck,batch_size,lr,use_bottleneck,btn_init,use_cross_atn,seed,mode,feature,AUC,ACC,Recall,Precision,F1
+1,8,16,1e-05,True,embed,True,392,0,"ko,species",0.7218,0.6232,0.6471,0.6111,0.6286
+1,8,16,1e-05,True,embed,True,412,0,"ko,species",0.8143,0.6957,0.7059,0.6857,0.6957
+1,8,16,1e-05,True,embed,True,432,0,"ko,species",0.7563,0.7101,0.6765,0.7188,0.697
+1,8,16,1e-05,True,embed,True,452,0,"ko,species",0.7916,0.6957,0.5588,0.76,0.6441
+1,8,16,1e-05,True,embed,True,472,0,"ko,species",0.7941,0.7391,0.6765,0.7667,0.7188
